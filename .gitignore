@@ -1,0 +1,7 @@
+# settingFiles
+.classpath
+.project
+.settings/
+
+# classFiles
+*.class
