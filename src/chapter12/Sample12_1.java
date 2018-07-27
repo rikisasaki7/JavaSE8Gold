@@ -7,6 +7,7 @@ import java.util.Locale;
 /*
  * chapter12-1
  * サンプルコード
+ * ロケール
  */
 public class Sample12_1 {
 
