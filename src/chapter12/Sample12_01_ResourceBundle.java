@@ -9,7 +9,7 @@ import java.util.Locale;
  * サンプルコード
  * ロケール
  */
-public class Sample12_1 {
+public class Sample12_01_ResourceBundle {
 
 	public static void main(String args[]){
 

@@ -8,7 +8,7 @@ import java.util.ResourceBundle;
  * サンプルコード
  * リソースバンドル
  */
-public class Sample12_2 {
+public class Sample12_02 {
 
 	public static void main(String args[]){
 

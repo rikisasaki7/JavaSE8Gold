@@ -3,11 +3,11 @@ package chapter12;
 import java.util.ResourceBundle;
 
 /*
- * chapter12-2
+ * chapter12-3
  * サンプルコード
  * リソースバンドル
  */
-public class Sample12_3 {
+public class Sample12_03 {
 
 	public static void main(String[] args){
 
