@@ -44,6 +44,6 @@ public class Sample12_13 {
 		DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("G yyyyMMdd EEE HHmmssSS - hhmmssSS");
 		String target2 = "AD 20180814 Tue 17142299 - 05142299";
 		LocalDateTime dateTime2 = LocalDateTime.parse(target2, fmt3);
-		System.out.println(String.format("全部：[%s]", fmt3.format(dateTime2)));
+		System.out.println(String.format("全部：[%s]", dateTime2));
 	}
 }
