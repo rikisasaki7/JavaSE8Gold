@@ -3,6 +3,7 @@
  */
 package chapter10;
 
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -36,9 +37,13 @@ public class Sample10_13 {
 			}
 		} finally {
 			service.shutdown(); // ExecutorServiceの終了。新しいタスクを受け付けない。登録済みのタスクは実行される。
-			System.out.println("isShutDown:" + service.isShutdown());
+//			System.out.println("shutdownNow=====-");
+//			List<Runnable> l = service.shutdownNow(); // shutdownNowは即座にタスクを終了させ、待機していたタスクのリストを返す。
+//													  // 実行した場合はInterruptedExceptionが発生する。
+//			System.out.println(l);
+			System.out.println("isShutDown:" + service.isShutdown()); //タスク受け入れをNGにする
 			System.out.println("ex.shutdown()");
 		}
-		System.out.println("isTerminated: " + service.isTerminated());
+		System.out.println("isTerminated: " + service.isTerminated()); // 全てのたすくが終了していればtrue
 	}
 }
